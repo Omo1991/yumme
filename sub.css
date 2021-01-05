@@ -1,0 +1,13 @@
+body div {
+	background-color: cyan;
+	text-align: center;
+}
+ ul li{
+	display: inline-block;
+	font-size: 1.5em;
+	font-family: all;
+	color: black;
+	text-transform: uppercase;
+	list-style-type: inline;
+
+}

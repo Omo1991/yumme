@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0; 
+   /* custom propertiees */
+
+   
+}
+ul a{
+    display: inline-block;
+    color: coral;
+    font-family: garamond;
+    margin-top: 10em;
+    
+}
+nav ul a {
+    margin-top: -100rem;
+}
+.top  {
+    color: coral;
+}
+.top header a {
+    color:purple;
+}
+.top ul li  {
+    color:purple;
+}
+:root {
+    --leading: 2em;
+} 
+.hero-bg{
+    background: #307D99 url('../EdWeb/work6.jpg');
+    color: rgb(222, 135, 210);
+    text-align: center;
+    padding: 4em;
+    background-attachment: fixed;
+}
+.hero-bg a {
+    color: whitesmoke;
+}
+h1 {
+    font-size: 2.5rem;
+    margin: 2em 0 1.2em;
+}
+h1 span{
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.4rem;
+    position: relative;
+}
+h1 span::before {
+    content: ' ';
+    position: absolute;
+    width: 3em;
+    background: blue;
+    height: .1em;
+    bottom: 0;
+}
+.hero-bg p {
+    font-weight: bold;
+    margin: 0 1em 3em;
+}
+.form-container {
+    background-color: white;
+    margin: 2em -1em 0;
+    padding: 2em;
+}
+label{
+    color: #2D7D98;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 1rem;
+}
+.form-container p{
+    padding-top: 1em;
+}
+input[type=text] {
+    border: 1px solid #707070;
+    width: 50%;
+    padding: 1em;
+    border-radius: 3em;
+    box-sizing: border-box;
+    outline: none;
+
+}
+input[type=button] {
+    border: none;
+    width: 30%;
+    padding: 1em;
+    border-radius: 3em;
+    background-color: #f89104;
+    cursor: pointer;
+    outline: none; 
+      
+}
+input[type=button]:hover {
+
+    background-color: green;
+    border-style: none;
+    outline: none;
+}
+h2 {
+    text-transform: uppercase;
+}
+p {
+    line-height: var(--leading);
+}
+@media(min-width: 700px){
+
+}
+section{
+    margin: 0 4em;
+}
+@media(min-width: 930px){
+
+}
+
+
+.top section {
+    text-align: center;
+}
+.form-container {
+    padding-top: 2em;
+    box-shadow: 20px 20px 20px chartreuse .1;
+    border-radius: 1em;
+}
+form {
+    display: flex;
+}
+.form-left{
+    width: 70%;
+
+}
+label{
+    margin: 0;
+}
+input[type=button] {
+
+    height: fit-content;
+    font-size: 1.1em;
+    margin-left: 1em;
+    margin-top:2.2em;
+    width: 20%;
+    padding:  .7em 0em;
+    border-style: none;
+}
+.top{
+    animation: fadeIn 4s forwards;
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateX(-5em);
+    }
+    to{
+    opacity: 1;
+
+    }
+}
+section p {
+    text-decoration-color: green;
+}
+.team {
+    display: inline-block;
+    background-color: rosybrown ;
+    width: fit-content;
+    height: fit-content;
+    background-attachment: fixed;
+
+}
+.team img:hover {
+     opacity: 0.5;
+}
+.team h2 {
+    background-color: lightgrey;
+    opacity: 0.3;
+    border-style: round;
+}
+ul li {
+    border-radius: 90%;
+    cursor: pointer;
+    padding-right: 2em;
+    padding-top: 2em;
+    display: inline-block;
+}
+
+  
